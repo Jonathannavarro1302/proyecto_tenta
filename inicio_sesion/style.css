@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background:f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contenedor-inicio {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  height: 450px;
+}
+
+.contenedor-inicio h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color:black;
+}
+
+.grupo-formulario {
+  margin-bottom: 20px;
+}
+
+.grupo-formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.grupo-formulario input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.grupo-formulario input:focus {
+  border-color: #3498db;
+}
+
+.boton-inicio {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.boton-inicio:hover {
+  background-color: #2980b9;
+}
+
+.pie-formulario {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.pie-formulario a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.pie-formulario a:hover {
+  text-decoration: underline;
+}
+
+.recuperar a{ 
+  text-decoration: none;
+  color: #3498db;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.recuperar a:hover {
+  text-decoration: underline;}

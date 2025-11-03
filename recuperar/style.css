@@ -1,0 +1,70 @@
+.recuperar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 30px;
+  font-family: sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recuperar-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recuperar-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.recuperar-container label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.recuperar-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.recuperar-container button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.recuperar-container button:hover {
+    background-color: #2989b9;
+}
+
+.enlace-regresar {
+  margin-top: 15px;
+
+}
+
+.enlace-regresar a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.enlace-regresar a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito</title>
+
+  <!-- Estilos del carrito -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="contenedor-carrito">
+
+    
+    <!-- Tabla donde se mostrará el contenido del carrito -->
+    <table class="tabla-carrito">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Total</th>
+          <th></th> <!-- Columna vacía para el botón eliminar -->
+        </tr>
+      </thead>
+
+      <tbody id="contenido-carrito">
+        <!-- Aquí se insertan los productos dinámicamente con JS -->
+      </tbody>
+    </table>
+
+    <!-- Total general del carrito -->
+    <div class="total-carrito">
+      <strong>Total: </strong><span id="total">$0.000</span>
+    </div>
+
+    <!-- Botones para regresar o enviar pedido -->
+    <div class="botones-carrito">
+      <!-- Botón para volver a la tienda -->
+      <!-- Usa ruta relativa si tu carpeta principal está un nivel arriba -->
+      <a href="/pagina_prinipal/index.html" class="btn-volver">Regresar a la tienda</a>
+
+      <!-- Botón para enviar el pedido por WhatsApp -->
+      <!-- El evento de clic lo maneja carrito.js -->
+      <a href="#" class="btn-whatsapp">Envía tu pedido a WhatsApp</a>
+    </div>
+
+    <!-- Contenedor para mostrar productos -->
+    <div id="lista-carrito"></div>
+    <p id="total-carrito"></p>
+
+
+  </main>
+
+  <script src="carrito.js"></script>
+
+</body>
+</html>
